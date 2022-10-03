@@ -1,16 +1,7 @@
 package domain;
 
 public class Caesar {
-    public static void main(String[] args) {
-        String text = "Hello World";
-        int shift = 3;
-        String encrypted = encrypt(text, shift);
-        String decrypted = decrypt(encrypted, shift);
-        System.out.println("Text: " + text);
-        System.out.println("Shift: " + shift);
-        System.out.println("Encrypted: " + encrypted);
-        System.out.println("Decrypted: " + decrypted);
-    }
+
 
     public static String encrypt(String text, int shift) {
         String encrypted = "";
